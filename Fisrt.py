@@ -1,24 +1,25 @@
-Fruits=[]
+Students=[]
 
-a=(input("Enter Fruits Names: "))
-Fruits.append(a)
+a=int(input("Enter Marks: "))
+Students.append(a)
 
-b=(input("Enter Fruits Names: "))
-Fruits.append(b)
+b=int(input("Enter Marks: "))
+Students.append(b)
 
-c=(input("Enter Fruits Names: "))
-Fruits.append(c)
+c=int(input("Enter Marks: "))
+Students.append(c)
 
-d=(input("Enter Fruits Names: "))
-Fruits.append(d)
+d=int(input("Enter Marks: "))
+Students.append(d)
 
-e=(input("Enter Fruits Names: "))
-Fruits.append(e)
+e=int(input("Enter Marks: "))
+Students.append(e)
 
-f=(input("Enter Fruits Names: "))
-Fruits.append(f)
+f=int(input("Enter Marks: "))
+Students.append(f)
 
-g=(input("Enter Fruits Names: "))
-Fruits.append(g)
+g=int(input("Enter Marks: "))
+Students.append(g)
 
-print(Fruits)
+Students.sort()
+print(Students)
