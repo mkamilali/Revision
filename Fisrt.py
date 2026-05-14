@@ -20,6 +20,7 @@ Students.append(f)
 
 g=int(input("Enter Marks: "))
 Students.append(g)
-asdasdajdqwwe
+
 Students.sort()
+#new comment add kia ha reset check krny ky lia
 print(Students)
